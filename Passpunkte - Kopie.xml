@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Koordinaten>
+	<Punkt>
+		<PunktNr>100</PunktNr>
+		<X-Koordinate>4213236.950321</X-Koordinate>
+		<Y-Koordinate>1025203.189048</Y-Koordinate>
+		<Z-Koordinate>4664204.575406</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>300</PunktNr>
+		<X-Koordinate>4212479.065087</X-Koordinate>
+		<Y-Koordinate>1022457.644964</Y-Koordinate>
+		<Z-Koordinate>4665308.312443</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>400</PunktNr>
+		<X-Koordinate>4214564.113470</X-Koordinate>
+		<Y-Koordinate>1021603.676074</Y-Koordinate>
+		<Z-Koordinate>4663732.909909</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>500</PunktNr>
+		<X-Koordinate>4213719.796143</X-Koordinate>
+		<Y-Koordinate>1021204.745919</Y-Koordinate>
+		<Z-Koordinate>4664560.998843</Z-Koordinate>
+	</Punkt>
+</Koordinaten>
+
+	

@@ -1,0 +1,379 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Release Notes - Extreme Optimization Numerical Libraries for .NET</title>
+    </head>
+    <body>
+        <h1>Extreme Optimization Numerical Libraries for .NET</h1>
+
+        <h2>Version 6.0</h2>
+        <h3>March 2016<br />
+        .NET 4.0-4.6 Professional Edition</h3>
+
+        <h1>Release Notes</h1>
+
+        <h2>Contents</h2>
+
+        <blockquote>
+        <ol>
+            <li><a href="#S1">Introduction</a></li>
+            <li><a href="#S2">Contact Information</a></li>
+            <li><a href="#S3">System Requirements</a></li>
+            <li><a href="#S4">Installation</a></li>
+            <li><a href="#S5">Design-Time License</a></li>
+            <li><a href="#S6">Documentation</a></li>
+            <li><a href="#S7">QuickStart Samples</a></li>
+            <li><a href="#S8">Sample Applications</a></li>
+            <li><a href="#S9">Redistributable Code</a></li>
+        </ol>
+        </blockquote>
+
+        <h2><a id="S1">1. Introduction</a></h2>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET
+        are a solid foundation for your numerical computing needs
+        on the Microsoft .NET platform.</p>
+
+        <p>Its broad base of algorithms covers a wide range of 
+        numerical techniques, including: linear algebra 
+        (BLAS and LAPACK routines), numerical integration 
+        and differentiation, solving equations, complex 
+        numbers, and more. </p>
+
+        <p>The classes in the Extreme Optimization Numerical Libraries
+        for .NET and the relationships between them match our 
+        every-day concepts, and breaks new ground in usability for
+        numerical software development.</p>
+
+        <p>We implemented the best algorithms available today to provide 
+        you with great performance on a robust, fast toolset.</p>
+
+
+        <h2><a id="S2">2. Contact Information</a></h2>
+
+        <blockquote>
+        <p>
+        </p>
+        </blockquote>
+        <h3>Sales</h3>
+        <blockquote style="MARGIN-RIGHT: 0px">
+            <p>1(877) 876-MATH (6284)<br />
+            1(425) 533-0718<br />
+	            Fax: 1(425) 533-0718<br />
+	            E-mail: <a href="mailto:sales@extremeoptimization.com">sales@extremeoptimization.com</a></p>
+        </blockquote>
+        <h3>Technical support</h3>
+        <blockquote style="MARGIN-RIGHT: 0px">
+            <p>E-mail: <a href="mailto:support@extremeoptimization.com">support@extremeoptimization.com</a></p>
+        </blockquote>
+        <h3>General inquiries</h3>
+        <blockquote style="MARGIN-RIGHT: 0px">
+            <p>1(877) 876-MATH (6284)<br />
+            1(425) 533-0718<br />
+	            E-mail: <a href="mailto:info@extremeoptimization.com">info@extremeoptimization.com</a></p>
+        </blockquote>
+        <h3>Mailing address</h3>
+        <blockquote id="snailmail" runat="server" visible="false" style="MARGIN-RIGHT: 0px">
+          <p>Exoanalytics Inc.<br />
+	            PO Box 1911<br />
+	            Campbellford, ON<br />
+	            K0L 1L0<br />
+	            Canada</p>
+        </blockquote>
+
+
+        <h2><a id="S3">3. System Requirements</a></h2>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET 
+            supports Microsoft .NET versions 2.0-4.5. There are
+            specific versions for .NET 2.0, .NET 3.5, and .NET 4.0.
+            Each edition of the Extreme Optimization Numerical Libraries 
+            for .NET requires the corresponding .NET framework version 
+            to be installed on your system. The .NET framework is available 
+            for download from the Microsoft web site at </p>
+
+                <blockquote>
+		<a target="_blank" href="http://msdn.microsoft.com/netframework/howtoget/default.aspx">http://msdn.microsoft.com/netframework/howtoget/default.aspx</a>
+		</blockquote>
+
+        <p>The sample solutions and project files were created using 
+        Microsoft Visual Studio .NET. We recommend using Microsoft 
+        Visual Studio.NET to compile and build the samples. 
+        However, the Microsoft .NET framework includes command 
+        line tools that enable you to build the applications 
+        without the Visual Studio .NET IDE.</p>
+
+        <p>The reference guide is in Adobe Acrobat format. You can 
+        obtain an Acrobat Reader from</p>
+
+                <blockquote>
+		<a target="_blank" href="http://www.adobe.com/">http://www.adobe.com/</a>
+	        </blockquote>
+          
+        <h2><a id="S4">4. Installation</a></h2>
+
+        <p>To install the Extreme Optimization Numerical Libraries for .NET, simply run the installer in your download
+        directory and follow the installation wizard instructions.
+            You can choose for which .NET edition to install, 
+            and for which Visual Studio version to provide samples and other support files.
+        </p>
+
+        <blockquote><a href="http://www.extremeoptimization.com/Downloads/Download.aspx?filename=Extreme.Numerics.Professional.v6.0.msi">http://www.extremeoptimization.com/Downloads/Download.aspx?filename=Extreme.Numerics.Professional.v6.0.msi</a></blockquote>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET require approximately 478&nbsp;MB of free disk space.</p>
+           
+        <p>To uninstall the Extreme Optimization Numerical Libraries 
+        for .NET, use the "Add or Remove Programs" control panel 
+        applet.</p>
+           
+
+        <h2><a id="S5">5. Design-time License</a></h2>
+
+	<p><b><u>Note</u>:</b> This section applies only to the retail version of the libraries.
+	The trial version does not require a design-time license.</p>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET
+        verify that you have a valid license at compile time,
+        and embeds a license key in the compiled assembly. Without
+        this embedded license key, the application will encounter
+        a LicenseException when it is run.</p>
+
+        <p>In order for the compiler to find the license information,
+        you must supply a <code>licenses.licx</code> file with the correct
+        license text.</p>
+
+        <p>If you are building an ASP.NET application,
+            you need to create a license assembly. You
+            do this by right-clicking on the licenses.licx file
+            in the Solution Explorer and choosing 
+            <em>'Build runtime licenses'</em> from the context menu.</p>
+
+        <p>If you are building an Azure WCF Webrole, the licenses.licx file
+            should be located in the Properties folder.
+        </p>
+
+        <p>To add the required entry to an existing <code>licenses.licx</code> file
+        manually:</p>
+
+	<ol>
+	<li>In the Project Explorer, make sure 'Show All Files' is
+           active.
+
+        <li>Find the <code>licenses.licx</code> file in the project directory 
+           and open it.
+
+        <li>Depending on the .NET version, add one of the following lines:
+	<blockquote>
+        <code>Extreme.License, Extreme.Numerics.Net20, Version=3.6.10055.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+        <code>Extreme.License, Extreme.Numerics.Net35, Version=6.0.16073.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+        <code>Extreme.License, Extreme.Numerics.Net40, Version=6.0.16073.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+	</blockquote>
+	without line breaks and without any leading or trailing spaces. Only add the line for the .NET version you are using.
+
+        <li>Save the file.
+	</ol>
+
+        <p>To add a <code>license.licx</code> file to your project manually:</p>
+
+	<ol>
+        <li>From the Project menu, choose 'Add New Item...'
+
+        <li>Expand the tree on the left, and go to the 'Utility' folder.
+
+        <li>Click on 'Text File', and type 'licenses.licx' in the Name
+           field.
+
+        <li>Click 'Open'.
+
+
+        <li>Depending on the .NET version, add one of the following lines:
+	<blockquote>
+        <code>Extreme.License, Extreme.Numerics.Net20, Version=3.6.10055.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+        <code>Extreme.License, Extreme.Numerics.Net35, Version=6.0.16073.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+        <code>Extreme.License, Extreme.Numerics.Net40, Version=6.0.16073.0, Culture=neutral, PublicKeyToken=9e513770f58567b2</code>
+	</blockquote>
+	without line breaks and without any leading or trailing spaces. Only add the line for the .NET version you are using.
+
+	<li>Save the file.
+	</ol>
+
+        <p>After completing these steps, you should be able to compile 
+        your application and run it on any machine. Since the license 
+        key is embedded in the executable, you only need the license 
+        on the development machine.</p>
+
+        <p>Note that if you are building a class library project, the
+        applications that use this library must also be able to
+        produce a license. This means that these applications must
+        be built on a machine that has a valid license installed.</p>
+
+        <p>When you are upgrading from an earlier version, or any time you install an update 
+        of the library that changes the version number, the existing .licenses file 
+        becomes invalid. You will have to perform the same procedure again.</p>
+
+        <p>When you are building an ASP.NET 2.0+ application, you may have to
+        build an assembly containing the license key manually. After following
+        the steps outlined above for creating a <code>licenses.licx</code> file,
+        you need to do the following:</p>
+
+        <ol>
+        <li>Right click on <code>licenses.licx</code> in the Solution Explorer
+        and select "Build Runtime Licenses" from the context menu.</li>
+        <li>This will create a file named <code>App_Licenses.dll</code> in the solution's /bin folder.</li>
+        <li>Make sure this file is deployed with your application.</li>
+        </ol>
+        <h2><a id="S6">6. Documentation</a></h2>
+
+        <p>The Extreme Optimization Numerical Libraries include
+        the following documentation. Both documents can be accessed
+        from the Start Menu:</p>
+
+        <ul>
+        <li><h3>User's Guide (in Microsoft Help format - .CHM)</h3>
+
+           <p>This document contains detailed instructions on
+           how to use the library. You will need the Adobe
+           Acrobat Reader or equivalent to read this document.
+           The Acrobat Reader can be downloaded from the Adobe
+           web site at</p>
+
+           <p>The User's Guide is also available in HTML format from
+           our web site:</p>
+
+           <p><a target="_blank" href="http://www.extremeoptimization.com/UsersGuide/">http://www.extremeoptimization.com/UsersGuide/</a></p></li>
+
+           <li>Library Reference Guide (in Microsoft Help format - .CHM)
+
+           <p>This document contains detailed reference information for
+           the complete Extreme Optimization
+               Numerical Libraries
+           for .NET API. </p>
+
+           <p>The reference guide is available online in HTML format
+           at the following page:</p>
+
+           <p><a target="_blank" href="http://www.extremeoptimization.com/Reference/">http://www.extremeoptimization.com/Reference/</a></p>
+           </li>
+        </ul>
+
+
+        <h2><a id="S7">7. QuickStart Samples</a></h2>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET
+        includes a large number of QuickStart Samples in both 
+        C# and Visual Basic.</p>
+
+        <p>The QuickStart Samples are installed in</p>
+           
+        <blockquote>
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\QuickStart\CSharp<br />
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\QuickStart\VisualBasic<br />
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\QuickStart\FSharp
+        </blockquote>
+
+        <p>All QuickStart Samples have been conveniently collected
+        in a single Visual Studio .NET solution file. The 
+        installation wizard creates shortcuts to these solution
+        files in the start menu.</p>
+
+        <p>The QuickStart samples are available online at
+          <a target="_blank" href="http://www.extremeoptimization.com/quickstart/">http://www.extremeoptimization.com/quickstart/</a></p>
+
+        <p>The QuickStart Samples are 'Sample Code' as specified in
+        section 5 of the License Agreement.</p>
+
+        <p>To build the QuickStart Samples using Visual Studio .NET,
+        follow these steps:</p>
+
+        <ol>
+            <li>Open the QuickStart Samples Solution file for the language
+               from the of your choice Start Menu.</li>
+
+            <li>From the Build menu, choose 'Build solution.'</li>
+        </ol>
+
+        To run a specific QuickStart Sample:
+
+        <ol>
+            <li>In the Solution Explorer, right-click on the project you
+               would like to run. Choose 'Set as startup project' from 
+               the context menu.</li>
+
+            <li>From the Debug menu, choose 'Start'</li>
+        </ol>
+
+        To build QuickStart Samples from the command line,
+        follow these steps:
+
+        <ol>
+        <li>Make sure that the .NET Framework 'BINN' directory
+           is in your directory search path (PATH).</li>
+
+        <li><p>From within a command window, change the current directory
+           to a specific QuickStart Sample. For example:</p>
+
+            <code>&lt;Program Data&gt;\Extreme Optimization\&lt;VS2015\QuickStart\CSharp\AdvancedIntegration</code>
+
+        <li><p>Call the appropriate compiler, and include a reference to
+           the Extreme.Numerics main assembly. For example:</p>
+
+        <p><code>csc /r:Extreme.Numerics.Net40.dll AdvancedIntegration.cs</code></p></li>
+
+        <li>Run the executable. The name of the executable should be the
+           same as the QuickStart Sample.</li>
+        </ol>
+
+        <h2><a id="S8">8. Sample Applications</a></h2>
+
+        <p>The Extreme Optimization Numerical Libraries for .NET
+        includes sample applications that demonstrate practical,
+        every-day uses of the library. The sample applications
+        are available in both C# and Visual Basic.</p>
+
+        <p>The Sample Applications are installed in</p>
+         
+        <blockquote>
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\Samples\CSharp<br />
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\Samples\VisualBasic<br />
+            &lt;Program Data&gt;\Extreme Optimization\&lt;VS Version>\Samples\FSharp
+        </blockquote>
+
+        <p>The Start Menu contains links to documents explaining
+        the samples in detail. Details on building and running
+        the samples can be found in these documents.</p>
+
+        <p>The Sample Applications are 'Sample Code' as specified in
+        section 5 of the License Agreement.</p>
+
+
+        <h2><a id="S9">9. Redistributable Code</a></h2>
+
+        <p>The files below are considered Redistributable Code as specified 
+        in section 6 of the License Agreement. These files are:</p>
+
+        <h3>.NET 4.0 edition</h3>
+
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.Net40.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.Generic.Net40.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.SinglePrecision.Net40.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.FSharp.Net40.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.FSharp30.Net40.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\Extreme.Numerics.IronPython.dll<\li>
+
+                <li>&lt;installDir&gt;\bin\Net40\x64\Extreme.Numerics.Net40.x64.Parallel.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x64\Extreme.Numerics.Net40.x64.Serial.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x86\Extreme.Numerics.Net40.x86.Parallel.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x86\Extreme.Numerics.Net40.x86.Serial.dll<\li>
+
+                <li>&lt;installDir&gt;\bin\Net40\x64\Extreme.Numerics.SinglePrecision.Net40.x64.Parallel.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x64\Extreme.Numerics.SinglePrecision.Net40.x64.Serial.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x86\Extreme.Numerics.SinglePrecision.Net40.x86.Parallel.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x86\Extreme.Numerics.SinglePrecision.Net40.x86.Serial.dll<\li>
+
+                <li>&lt;installDir&gt;\bin\Net40\x64\libiomp5md.dll<\li>
+                <li>&lt;installDir&gt;\bin\Net40\x86\libiomp5md.dll<\li>
+
+        <p>You are hereby granted the royalty-free right to distribute 
+        these files with your product, provided that you comply with 
+        section 7 of the License Agreement.</p>
+    </body>
+</html>

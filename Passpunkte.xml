@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Koordinaten>
+	<Punkt>
+		<PunktNr>140</PunktNr>
+		<X-Koordinate>4069417.1517</X-Koordinate>
+		<Y-Koordinate>589360.2193</Y-Koordinate>
+		<Z-Koordinate>4859702.0509</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>141</PunktNr>
+		<X-Koordinate>4069239.9608</X-Koordinate>
+		<Y-Koordinate>589885.0333</Y-Koordinate>
+		<Z-Koordinate>4859782.1842</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>209</PunktNr>
+		<X-Koordinate>4071289.6274</X-Koordinate>
+		<Y-Koordinate>592657.3393</Y-Koordinate>
+		<Z-Koordinate>4857792.4019</Z-Koordinate>
+	</Punkt>
+	<Punkt>
+		<PunktNr>255</PunktNr>
+		<X-Koordinate>4069501.1068</X-Koordinate>
+		<Y-Koordinate>590250.6200</Y-Koordinate>
+		<Z-Koordinate>4859509.6220</Z-Koordinate>
+	</Punkt>
+</Koordinaten>
+
+	
